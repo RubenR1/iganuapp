@@ -1,4 +1,4 @@
-.work {
+.slider {
     background-color: green;
     display: flex;
     align-items: center;
@@ -10,12 +10,12 @@
         position: absolute;
 
         &.left {
-            left: 50px;
+            left: 100px;
             transform: rotateY(180deg);            
         }
 
         &.right {
-            right: 50px;
+            right: 100px;
         }
     }
 

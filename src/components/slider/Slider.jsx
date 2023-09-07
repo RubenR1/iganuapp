@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './work.scss'
+import './slider.scss'
 
-export default function Work() {  
+export default function Slider() {  
   const [currentSlider, setCurrentSlide] = useState(0);
 
   const data = [
@@ -40,7 +40,7 @@ export default function Work() {
   }
 
   return (
-    <div className='work'>
+    <div className='slider'>
       <div className="slider" style={{transform: `translateX(-${currentSlider * 100}vw)`}}>
         {data.map((d) => ( 
         <div className="container">
